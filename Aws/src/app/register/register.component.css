@@ -1,0 +1,19 @@
+/* Add these styles to src/app/register/register.component.css */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    width: 10%; /* Adjust the width based on your preference */
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:nth-child(2) {
+    background-color: #6c757d; /* Set a background color for the "Back" button */
+    color: #fff;
+  }
+  
